@@ -9,7 +9,8 @@
 		"#generateStatuette#",
 		"#generateNecklace#",
 		"#generateInstrument#",
-		"#generateRobe#"
+		"#generateRobe#",
+		"#generateTapestry#"
 	],
 	"generateTool": [
 		"A #adjective1# #adjective2# #tool# made from #material#, #decoration# and tipped with #tip#."
@@ -554,10 +555,10 @@
 		"satin",
 		"damask",
 		"linen",
-		"woollen",
+		"woollen cloth",
+		"broadcloth",
 		"fustian",
 		"lamb's-wool",
-		"feathered"
 	],
 	"robeDecoration" : [ 
 		"embroidered sigils",
@@ -689,7 +690,7 @@
 	],
 	"generateTapestry" : [ 
 		"A #tapestrySize# #tapestryAdjective# tapestry depicting #tapestrySubject#."
-	],
+		],
 	"tapestryAdjective" : [
 		"finely worked",
 		"richly worked",
@@ -702,7 +703,7 @@
 		"stylized",
 		"folk art",
 		"artistic"
-	],
+		],
 	"tapestrySize" : [ 
 		"small",
 		"large",
@@ -711,17 +712,17 @@
 		"very large",
 		"gigantic",
 		"short"
-	],
+		],
 	"tapestrySubject" : [ 
 		"#tapestryFirstNounOrNouns# #tapestryConjunction# #tapestrySecondNounOrNouns#"
-	],
+		],
 	"tapestryFirstNounOrNouns" : [ 
 		"#tapestryNoun.a#",
 		"#tapestryNoun.a#",	
 		"#tapestryNoun.a#",
 		"two #tapestryNoun.s#",
 		"three #tapestryNoun.s#"
-	],
+		],
 	"tapestrySecondNounOrNouns" : [ 
 		"#tapestryNoun.a#",
 		"two #tapestryNoun.s#",
@@ -739,7 +740,7 @@
 		"dozens of #tapestryNoun.s#",
 		"scores of #tapestryNoun.s#",
 		"hundreds of #tapestryNoun.s#"
-	],
+		],
 	"tapestryNoun" : [ 
 		"maiden",
 		"damsel",
@@ -778,10 +779,10 @@
 		"heron",
 		"dolphin",
 		"gull"
-	],
+		],
 	"tapestryConjunction" : [ 
 		"and",
 		"with",
 		"alongside"
-	]
+		]
 }
