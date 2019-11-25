@@ -686,6 +686,102 @@
 		"bellfounders",
 		"ironfounders",
 		"farriers"
+	],
+	"generateTapestry" : [ 
+		"A #tapestrySize# #tapestryAdjective# tapestry depicting #tapestrySubject#."
+	],
+	"tapestryAdjective" : [
+		"finely worked",
+		"richly worked",
+		"simple",
+		"ornate",
+		"dazzlingly beautiful",
+		"moth-eaten",
+		"tattered",
+		"charming",
+		"stylized",
+		"folk art",
+		"artistic"
+	],
+	"tapestrySize" : [ 
+		"small",
+		"large",
+		"long thin",
+		"narrow",
+		"very large",
+		"gigantic",
+		"short"
+	],
+	"tapestrySubject" : [ 
+		"#tapestryFirstNounOrNouns# #tapestryConjunction# #tapestrySecondNounOrNouns#"
+	],
+	"tapestryFirstNounOrNouns" : [ 
+		"#tapestryNoun.a#",
+		"#tapestryNoun.a#",	
+		"#tapestryNoun.a#",
+		"two #tapestryNoun.s#",
+		"three #tapestryNoun.s#"
+	],
+	"tapestrySecondNounOrNouns" : [ 
+		"#tapestryNoun.a#",
+		"two #tapestryNoun.s#",
+		"three #tapestryNoun.s#",
+		"four #tapestryNoun.s#",
+		"five #tapestryNoun.s#",
+		"six #tapestryNoun.s#",
+		"seven #tapestryNoun.s#",
+		"eight #tapestryNoun.s#",
+		"nine #tapestryNoun.s#",
+		"ten #tapestryNoun.s#",
+		"eleven #tapestryNoun.s#",
+		"a dozen #tapestryNoun.s#",
+		"many #tapestryNoun.s#",
+		"dozens of #tapestryNoun.s#",
+		"scores of #tapestryNoun.s#",
+		"hundreds of #tapestryNoun.s#"
+	],
+	"tapestryNoun" : [ 
+		"maiden",
+		"damsel",
+		"damosel",
+		"matron",
+		"goodwife",
+		"crone",
+		"hermit",
+		"star",
+		"unicorn",
+		"hound",
+		"#colour# horse",
+		"shield",
+		"sword",
+		"dragon",
+		"cameleopard",
+		"basilisk",
+		"bonnacon",
+		"minotaur",
+		"gorgon",
+		"giant",
+		"goblin",
+		"gnome",
+		"pixie",
+		"sprite",
+		"oak tree",
+		"leafless tree",
+		"eagle",
+		"raven",
+		"magpie",
+		"stag",
+		"hare",
+		"falcon",
+		"songbird",
+		"mountain",
+		"heron",
+		"dolphin",
+		"gull"
+	],
+	"tapestryConjunction" : [ 
+		"and",
+		"with",
+		"alongside"
 	]
-
 }
