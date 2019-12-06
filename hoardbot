@@ -10,7 +10,8 @@
 		"#generateNecklace#",
 		"#generateInstrument#",
 		"#generateRobe#",
-		"#generateTapestry#"
+		"#generateTapestry#",
+		"#generateBook#"
 	],
 	"generateTool": [
 		"A #adjective1# #adjective2# #tool# made from #material#, #decoration# and tipped with #tip#."
@@ -559,6 +560,7 @@
 		"broadcloth",
 		"fustian",
 		"lamb's-wool",
+		"feathered"
 	],
 	"robeDecoration" : [ 
 		"embroidered sigils",
@@ -584,11 +586,11 @@
 		"dozens of tiny secret pockets"
 	],
 	"godDetails" : [
-		"a god who #godWho#",
-		"a god of #godOf#",
-		"a god of #godOf# and #godOf#",
-		"a god worshipped in #godWorshippedIn#",
-		"a god worshipped by #godWorshippedBy#"
+		"god who #godWho#",
+		"god of #godOf#",
+		"god of #godOf# and #godOf#",
+		"god worshipped in #godWorshippedIn#",
+		"god worshipped by #godWorshippedBy#"
 	],
 	"godWho" : [
 		"moves the trees",
@@ -784,5 +786,196 @@
 		"and",
 		"with",
 		"alongside"
-		]
+		],
+"generateBook" : [
+	"This is a book bound in #colour# #bookMaterial#. It contains #bookType#."
+	],
+"bookMaterial" : [
+	"vellum",
+	"leather",
+	"sharkskin",
+	"oilcloth",
+	"shagreen",
+	"pasteboard"
+	],
+
+"bookType" : [ 
+	"#bookReligious#",
+	"#bookMagic#",
+	"#bookFairies#",
+	"#bookPicaresque#",
+	"mind-numbing details of the accounts of #heroOccupation.a#",
+	"the diary of #heroOccupation.a#"
+	],
+
+"bookReligious" : [ 
+	"prayers to #godDetails.a#",
+	"an examination of the cult of #godDetails.a#",
+	"the liturgy of #godDetails.a#",
+	"a description of the monastic rule of #godDetails.a#"
+	],
+
+"bookMagic" : [ 
+	"a description of the alchemical, medicinal, and cosmetical uses of #herb#",
+	"spells of #magicDiscipline#"
+	],
+"magicDiscipline" : [ 
+	"fire and thunder",
+	"dew and daylight",
+	"scrying",
+	"divination",
+	"thaumaturgy",
+	"sorcery",
+	"sortilege",
+	"gloomy auspices",
+	"evocations and conjury",
+	"summoning",
+	"glamourie and enchantment",
+	"travel and safe passage",
+	"health and comfort",
+	"love and increase",
+	"animal husbandry"
+	],
+"herb" : [ 
+	"yarrow",
+	"speedwell",
+	"cornflowers",
+	"parsley",
+	"caraway",
+	"wild marjoram",
+	"thyme",
+	"rosemary",
+	"lavender",
+	"flowering sage",
+	"oak leaves",
+	"willow bark",
+	"comfrey",
+	"feverfew",
+	"eyebright"
+	],
+	
+"bookFairies" : [
+	"tales of the #fairySpecies# of #fairyLocation#"
+	],
+"fairySpecies" : [ 
+	"fairies",
+	"korreds",
+	"pixies",
+	"sprites",
+	"treants",
+	"satyrs",
+	"centaurs",
+	"ogres",
+	"goblins",
+	"dryads",
+	"nymphs"
+	],
+"fairyLocation" : [ 
+	"the mossy woods",
+	"the deep wildwood",
+	"the ancient mountains",
+	"the gentle streams",
+	"the deep caves",
+	"night and darkness",
+	"dawn and daylight",
+	"the dancing groves",
+	"the rugged uplands",
+	"the willow meads"
+	],
+	
+"bookPicaresque" : [
+	"the #picaresqueAdjective# adventures of #heroFirstMale# #heroLast#, in which he #picaresqueVerb# #picaresqueNoun.a#",
+	"the #picaresqueAdjective# adventures of #heroFirstFemale# #heroLast#, in which she #picaresqueVerb# #picaresqueNoun.a#",
+	"the #picaresqueAdjective# adventures of #heroFirstNB# #heroLast#, in which #NBPronoun# #picaresqueVerb# #picaresqueNoun.a#"
+	],
+"picaresqueAdjective" : [ 
+	"dashing",
+	"thrilling",
+	"exciting",
+	"rip-roaring",
+	"wistful",
+	"melancholic",
+	"wonderful",
+	"unbelievable",
+	"incredible"
+	],
+"heroFirstMale" : [ 
+	"Roger", "Tom", "Stephen", "Fulke", "Sebastian", "Quentin", "Benedict", "Stephanopoulous", "Kyril", "Robert", "Alfred"
+	],
+"heroFirstFemale" : [ 
+	"Diana", "Catherynne", "Alessandra", "Susan", "Lucia", "Rebecca", "Laura", "Amelia", "Tanith", "Tamora", "Liza", "Bethany", "Ella"
+	],
+"heroFirstNB" : [ 
+	"Sam", "Dorian", "Rowan", "Robin", "Hillary", "Mackenzie", "Merry", "Pippin", "El", "Taryn", "Jack"
+	],
+"NBPronoun" : [ "they", "zie", "sie", "ey" ], 
+"heroLast" : [
+	"of #heroLocation#",
+	"the #heroOccupation#",
+	"and their faithful #animal# companion"
+	],
+"heroLocation" : [
+	"the Ropewalk",
+	"the Wildwood",
+	"the Great River",
+	"the Dark Fen",
+	"the Narrow Streets",
+	"the High Cliffs",
+	"the Stony Beach",
+	"the Great Temple"
+	],
+"heroOccupation" : [ 
+	"ironfounder",
+	"grain farmer",
+	"cattle farmer",
+	"market gardener",
+	"woodcutter",
+	"scribe",
+	"wizard",
+	"priest",
+	"sex worker",
+	"witch",
+	"sailor",
+	"chandler",
+	"smith",
+	"carpenter",
+	"shopkeeper",
+	"salt merchant",
+	"miner",
+	"fletcher"
+	],
+"picaresqueVerb" : [
+	"somehow acquired",
+	"fell in love with",
+	"duelled",
+	"thwarted",
+	"adopted",
+	"inherited",
+	"went to war with",
+	"discovered the truth about",
+	"professed love to"
+	],
+"picaresqueNoun" : [ 
+	"spoon",
+	"warhorse",
+	"milkmaid",
+	"wandering knight",
+	"village idiot",
+	"miller's daughter",
+	"selkie",
+	"badger-hair shaving brush",
+	"left boot",
+	"fishing net",
+	"mirror",
+	"extremely large cake",
+	"beggar maid",
+	"teacup",
+	"portrait of the Queen",
+	"left-handed butter knife",
+	"#godDetails#",
+	"shopkeeper with large ears",
+	"seven-fingered monkey"
+	]
 }
+
+
